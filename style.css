@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #424242; /* Fix typo in color code */
+    color: #a9a9a9;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+#definition-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #424242;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.word {
+    font-weight: Bold;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: #fff;
+}
+
+.form, .meaning, .example {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.form {
+    color: #a9a9a9;
+}
+
+.meaning {
+    color: #ffffff;
+}
+
+.example {
+    color: #a9a9a9;
+}
+
+#audiocontainer {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 11px;
+    flex-direction: row-reverse;
+}
+
+#pronunciationtext {
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+#playButton {
+    cursor: pointer;
+    margin-top: 0px;
+}
